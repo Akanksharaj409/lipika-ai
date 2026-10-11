@@ -19,8 +19,8 @@ export const Card: React.FC<CardProps> = ({
   const baseStyles = 'rounded-lg border p-4 transition-all duration-200';
 
   const variants = {
-    default: 'bg-zinc-900 border-zinc-800 text-zinc-100 shadow-md',
-    archival: 'bg-zinc-950 border-zinc-800 text-white shadow-lg relative overflow-hidden',
+    default: 'bg-zinc-900/90 backdrop-blur-md border-zinc-800/80 text-zinc-100 shadow-lg',
+    archival: 'bg-zinc-950/85 backdrop-blur-md border-zinc-800/80 text-white shadow-xl relative overflow-hidden',
     glass: 'glass-card text-zinc-100',
     interactive: 'glass-card glass-card-hover text-zinc-100 cursor-pointer hover:-translate-y-0.5',
   };
